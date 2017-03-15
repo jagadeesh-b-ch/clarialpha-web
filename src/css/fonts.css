@@ -1,0 +1,51 @@
+/* Highjack Font */
+@font-face{
+    font-family: Highjack;
+    src: url('fonts/highjack_2/Highjack_Regular.otf');
+}
+@font-face{
+    font-family: Highjack;
+    font-weight: bold;
+    src: url('fonts/highjack_2/Highjack_Bold.otf');
+}
+@font-face{
+    font-family: Highjack;
+    font-style: italic;
+    src: url('fonts/highjack_2/Highjack_Regular_Italic.otf');
+}
+@font-face{
+    font-family: Highjack;
+    font-weight: bold;
+    font-style: italic;
+    src: url('fonts/highjack_2/Highjack_Bold_Italic.otf');
+}
+
+/*AnyMale Font*/
+@font-face{
+    font-family: AnyMale;
+    src: url('fonts/anymale/AnyMale.ttf');
+}
+
+/* Plagiata Font */
+@font-face{
+    font-family: Plagiata;
+    src: url('fonts/plagiata/plagiata.otf');
+}
+
+/* Gomarice Font */
+@font-face{
+    font-family: Gomarice;
+    src: url('fonts/usuazi_hosomozi/gomarice_usuazi_hosomozi.ttf');
+}
+
+/* VintageAvalanche Font */
+@font-face{
+    font-family: VintageAvalanche;
+    src: url('fonts/vintage_avalanche/VintageAvalanche.otf');
+}
+
+/* YorkBaileHill Font */
+@font-face{
+    font-family: YorkBaileHill;
+    src: url('fonts/york_baile_hill/yorkbailehill.otf');
+}
