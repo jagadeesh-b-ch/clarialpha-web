@@ -4,14 +4,17 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { MaterialModule } from '@angular/material';
+import 'hammerjs';
 
 import { AppComponent } from './app.component';
 import { CreateArticleComponent } from './create-article/create-article.component';
+import { BaseTemplateComponent } from './base-template/base-template.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CreateArticleComponent
+    CreateArticleComponent,
+    BaseTemplateComponent
   ],
   imports: [
     BrowserModule,
@@ -24,8 +27,12 @@ import { CreateArticleComponent } from './create-article/create-article.componen
         component: CreateArticleComponent
       },
       {
+        path: 'home',
+        component: BaseTemplateComponent
+      },
+      {
         path: '',
-        component: AppComponent,
+        redirectTo: '/home',
         pathMatch: 'full'
       }
     ])
