@@ -15,10 +15,22 @@ module.exports = {
   },
   module: {
 	  rules: [
-        {
-            test: /\.ts$/,
-            loaders: ['awesome-typescript-loader']
-        }
+                {
+					test: /\.ts$/,
+					loaders: ['awesome-typescript-loader', 'angular2-template-loader']
+				},
+				{
+					test: /\.html$/,
+					loader: 'html-loader'
+				},
+				{
+					test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
+					loader: 'file?name=assets/[name].[hash].[ext]'
+				},
+				{
+				   test: /\.css$/,
+				   loaders: ['to-string-loader', 'css-loader']
+				}
 	]
   },
   plugins: [
