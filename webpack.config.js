@@ -4,18 +4,33 @@ const webpack = require('webpack'); //to access built-in plugins
 
 module.exports = {
   entry:{
-    'app':'./source/app.module.ts',
-    'polyfills':'./dependencies/polyfills.ts'
+	'polyfills':'./dependencies/polyfills.ts',
+	'app':'./source/app.module.ts'
   },
   output: {
     filename: '[name].js',
   },
+  resolve: {
+    extensions: ['.js', '.ts']
+  },
   module: {
 	  rules: [
-		{
-			test: /\.ts$/,
-			loader: 'awesome-typescript-loader'
-		}
+        {
+            test: /\.ts$/,
+            loaders: ['awesome-typescript-loader', 'angular2-template-loader']
+        },
+        {
+            test: /\.html$/,
+            loader: 'html-loader'
+        },
+        {
+            test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
+            loader: 'file?name=assets/[name].[hash].[ext]'
+        },
+        {
+           test: /\.css$/,
+           loaders: ['to-string-loader', 'css-loader']
+        }
 	]
   },
   plugins: [
@@ -27,6 +42,9 @@ module.exports = {
 		{} // a map of your routes
 	),*/
     new webpack.optimize.UglifyJsPlugin(),
+	new webpack.optimize.CommonsChunkPlugin({
+		name: ['app', 'polyfills']
+	}),
     new HtmlWebpackPlugin({template: './index.html'})
   ]
 };
