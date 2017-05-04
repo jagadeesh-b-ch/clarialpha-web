@@ -18,3 +18,4 @@ import { CreateArticleComponent } from './create-article/create-article.componen
 	]
 })
 export class AppModule { }
+platformBrowserDynamic().bootstrapModule(AppModule);
