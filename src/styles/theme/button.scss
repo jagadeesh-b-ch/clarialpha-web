@@ -1,0 +1,27 @@
+.button {
+    min-width: 12rem;
+    height: 4rem;
+    margin: 1rem;
+    font-weight: lighter;
+    font-size: 2rem;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 0.5rem;
+    box-shadow: none;
+    border-style: solid;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.primary {
+    background-color: #39ac39;
+    border-color: #39ac39;
+    color: #ffffff;
+}
+
+.default {
+    background-color: #ffffff;
+    border-color: #39ac39;
+    color: #39ac39;
+}
