@@ -1,0 +1,27 @@
+.text-field {
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #cccccc;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+.text-field:focus {
+    border-color: #39ac39;
+    box-shadow: #39ac39;
+}
+
+.text-area {
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #cccccc;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+.text-area:focus {
+    border-color: #39ac39;
+    box-shadow: #39ac39;
+}

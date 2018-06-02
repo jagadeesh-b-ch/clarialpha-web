@@ -1,11 +1,12 @@
 .radio-box-container {
     display: block;
     position: relative;
-    padding-left: 2.5rem;
-    font-size: 2rem;
+    padding-left: 1.875rem;
+    font-size: 1.5rem;
     user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+    font-weight: lighter;
 }
 
 .radio-box-container input {
@@ -18,13 +19,13 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 2rem;
-    width: 2rem;
-    border-radius: 1.1rem;
+    height: 1.5rem;
+    width: 1.5rem;
     background-color: #ffffff;
     border-style: solid;
-    border-width: 0.1rem;
+    border-width: thin;
     border-color: #39ac39;
+    border-radius: 0.75rem;
 }
 
 .radio-box:after {
@@ -42,7 +43,7 @@
     top: 0.3rem;
     right: 0.3rem;
     bottom: 0.3rem;
-    border-radius: 0.7rem;
+    border-radius: 0.75rem;
     background-color: #39ac39;
     border-style: none;
 }
