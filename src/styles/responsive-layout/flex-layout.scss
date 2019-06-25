@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+[class*="flex-col-"] {
+    padding: 15px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .flex-col-xs-1 {
+        flex-grow: 1;
+    }
+    
+    .flex-col-xs-2 {
+        flex-grow: 2;
+    }
+    
+    .flex-col-xs-3 {
+        flex-grow: 3;
+    }
+    
+    .flex-col-xs-4 {
+        flex-grow: 4;
+    }
+    
+    .flex-col-xs-5 {
+        flex-grow: 5;
+    }
+    
+    .flex-col-xs-6 {
+        flex-grow: 6;
+    }
+    
+    .flex-col-xs-7 {
+        flex-grow: 7;
+    }
+    
+    .flex-col-xs-8 {
+        flex-grow: 8;
+    }
+    
+    .flex-col-xs-9 {
+        flex-grow: 9;
+    }
+    
+    .flex-col-xs-10 {
+        flex-grow: 10;
+    }
+    
+    .flex-col-xs-11 {
+        flex-grow: 11;
+    }
+    
+    .flex-col-xs-12 {
+        flex-grow: 12;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .flex-col-s-1 {
+        flex-grow: 1;
+    }
+    
+    .flex-col-s-2 {
+        flex-grow: 2;
+    }
+    
+    .flex-col-s-3 {
+        flex-grow: 3;
+    }
+    
+    .flex-col-s-4 {
+        flex-grow: 4;
+    }
+    
+    .flex-col-s-5 {
+        flex-grow: 5;
+    }
+    
+    .flex-col-s-6 {
+        flex-grow: 6;
+    }
+    
+    .flex-col-s-7 {
+        flex-grow: 7;
+    }
+    
+    .flex-col-s-8 {
+        flex-grow: 8;
+    }
+    
+    .flex-col-s-9 {
+        flex-grow: 9;
+    }
+    
+    .flex-col-s-10 {
+        flex-grow: 10;
+    }
+    
+    .flex-col-s-11 {
+        flex-grow: 11;
+    }
+    
+    .flex-col-s-12 {
+        flex-grow: 12;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .flex-col-m-1 {
+        flex-grow: 1;
+    }
+    
+    .flex-col-m-2 {
+        flex-grow: 2;
+    }
+    
+    .flex-col-m-3 {
+        flex-grow: 3;
+    }
+    
+    .flex-col-m-4 {
+        flex-grow: 4;
+    }
+    
+    .flex-col-m-5 {
+        flex-grow: 5;
+    }
+    
+    .flex-col-m-6 {
+        flex-grow: 6;
+    }
+    
+    .flex-col-m-7 {
+        flex-grow: 7;
+    }
+    
+    .flex-col-m-8 {
+        flex-grow: 8;
+    }
+    
+    .flex-col-m-9 {
+        flex-grow: 9;
+    }
+    
+    .flex-col-m-10 {
+        flex-grow: 10;
+    }
+    
+    .flex-col-m-11 {
+        flex-grow: 11;
+    }
+    
+    .flex-col-m-12 {
+        flex-grow: 12;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .flex-col-l-1 {
+        flex-grow: 1;
+    }
+    
+    .flex-col-l-2 {
+        flex-grow: 2;
+    }
+    
+    .flex-col-l-3 {
+        flex-grow: 3;
+    }
+    
+    .flex-col-l-4 {
+        flex-grow: 4;
+    }
+    
+    .flex-col-l-5 {
+        flex-grow: 5;
+    }
+    
+    .flex-col-l-6 {
+        flex-grow: 6;
+    }
+    
+    .flex-col-l-7 {
+        flex-grow: 7;
+    }
+    
+    .flex-col-l-8 {
+        flex-grow: 8;
+    }
+    
+    .flex-col-l-9 {
+        flex-grow: 9;
+    }
+    
+    .flex-col-l-10 {
+        flex-grow: 10;
+    }
+    
+    .flex-col-l-11 {
+        flex-grow: 11;
+    }
+    
+    .flex-col-l-12 {
+        flex-grow: 12;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .flex-col-xl-1 {
+        flex-grow: 1;
+    }
+    
+    .flex-col-xl-2 {
+        flex-grow: 2;
+    }
+    
+    .flex-col-xl-3 {
+        flex-grow: 3;
+    }
+    
+    .flex-col-xl-4 {
+        flex-grow: 4;
+    }
+    
+    .flex-col-xl-5 {
+        flex-grow: 5;
+    }
+    
+    .flex-col-xl-6 {
+        flex-grow: 6;
+    }
+    
+    .flex-col-xl-7 {
+        flex-grow: 7;
+    }
+    
+    .flex-col-xl-8 {
+        flex-grow: 8;
+    }
+    
+    .flex-col-xl-9 {
+        flex-grow: 9;
+    }
+    
+    .flex-col-xl-10 {
+        flex-grow: 10;
+    }
+    
+    .flex-col-xl-11 {
+        flex-grow: 11;
+    }
+    
+    .flex-col-xl-12 {
+        flex-grow: 12;
+    }
+}

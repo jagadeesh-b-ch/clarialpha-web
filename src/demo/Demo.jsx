@@ -4,6 +4,7 @@ class Demo extends React.Component {
     render() {
         return(
         <div>
+            <label>The following is the Demo component</label>
          <h1>
             Hello World!!!
          </h1>

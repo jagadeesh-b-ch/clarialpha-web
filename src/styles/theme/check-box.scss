@@ -1,55 +1,55 @@
 .check-box-container {
-    display: block;
-    position: relative;
-    padding-left: 1.875rem;
-    font-size: 1.5rem;
-    user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    font-weight: lighter;
+    display: block !important;
+    position: relative !important;
+    padding-left: 1.875rem !important;
+    font-size: 1.5rem !important;
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    -ms-user-select: none !important;
+    font-weight: lighter !important;
 }
 
 .check-box-container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
+    position: absolute !important;
+    opacity: 0 !important;
+    cursor: pointer !important;
 }
 
 .check-box-container .check-box {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 1.5rem;
-    width: 1.5rem;
-    background-color: #ffffff;
-    border-style: solid;
-    border-width: thin;
-    border-color: #39ac39;
-    border-radius: 0.375rem;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+    background-color: #ffffff !important;
+    border-style: solid !important;
+    border-width: thin !important;
+    border-color: #39ac39 !important;
+    border-radius: 0.375rem !important;
 }
 
 .check-box-container input:checked ~ .check-box {
-    background-color: #39ac39;
+    background-color: #39ac39 !important;
 }
 
 .check-box:after {
-    content: "";
-    position: absolute;
-    display: none;
+    content: "" !important;
+    position: absolute !important;
+    display: none !important;
 }
 
 .check-box-container input:checked ~ .check-box:after {
-    display: block;
+    display: block !important;
 }
 
 .check-box-container .check-box:after {
-    left: 0.45rem;
-    top: 0rem;
-    width: 0.45rem;
-    height: 1.05rem;
-    border: solid #ffffff;
-    border-width: 0 0.15rem 0.15rem 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+    left: 0.45rem !important;
+    top: 0rem !important;
+    width: 0.45rem !important;
+    height: 1.05rem !important;
+    border: solid #ffffff !important;
+    border-width: 0 0.15rem 0.15rem 0 !important;
+    -webkit-transform: rotate(45deg) !important;
+    -ms-transform: rotate(45deg) !important;
+    transform: rotate(45deg) !important;
 }

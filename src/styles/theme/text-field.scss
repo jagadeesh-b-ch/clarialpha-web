@@ -1,27 +1,27 @@
 .text-field {
-    font-size: 1.5rem;
-    background-color: #ffffff;
-    border-style: solid;
-    border-color: #cccccc;
-    border-radius: 0.25rem;
-    padding: 0.5rem;
+    font-size: 1.5rem !important;
+    background-color: #ffffff !important;
+    border-style: solid !important;
+    border-color: #cccccc !important;
+    border-radius: 0.25rem !important;
+    padding: 0.5rem !important;
 }
 
 .text-field:focus {
-    border-color: #39ac39;
-    box-shadow: #39ac39;
+    border-color: #39ac39 !important;
+    box-shadow: #39ac39 !important;
 }
 
 .text-area {
-    font-size: 1.5rem;
-    background-color: #ffffff;
-    border-style: solid;
-    border-color: #cccccc;
-    border-radius: 0.25rem;
-    padding: 0.5rem;
+    font-size: 1.5rem !important;
+    background-color: #ffffff !important;
+    border-style: solid !important;
+    border-color: #cccccc !important;
+    border-radius: 0.25rem !important;
+    padding: 0.5rem !important;
 }
 
 .text-area:focus {
-    border-color: #39ac39;
-    box-shadow: #39ac39;
+    border-color: #39ac39 !important;
+    box-shadow: #39ac39 !important;
 }
