@@ -9,10 +9,10 @@ class CreateArticle extends React.Component {
                     Put your thoughts into writing here
                 </h1>
                 <div className="flex-row">
-                    <div className="flex-col-xl-7">
+                    <div className="flex-col-xl-7 flex-col-m-12">
                         <label>This is where your article appears</label>
                     </div>
-                    <div className="flex-col-xl-3">
+                    <div className="flex-col-xl-3 flex-col-m-12">
                         <ArticleToolsPalette/>
                     </div>
                 </div>
